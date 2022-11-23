@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.directors {
+    margin: 8px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 200px;
+    margin: 40px auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+h4, input {
+    margin: 16px;
+}
